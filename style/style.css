@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -60,15 +59,43 @@ footer{
     line-height: 30px; 
   
 }
-.news_letter{
+.news_letter {
     display: flex;
     padding: 15px 0px;
 }
-.news_letter input{
-    width: 80%;
+
+.news_letter input {
+    width: 70%;
+   
     border-radius: 341px;
+    border: 2px solid #058B8C;
+    height: 48px;
+    padding-left: 15px;
 }
 
+.news_letter button {
+    width: 23%;
+    margin-left: 1rem;
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 166.667% */
+    border: none;
+}
+
+.column_one{
+    display:grid;
+    gap: 30px;
+    padding: 30px;
+    font-family: Rubik;
+    font-style: normal;
+} 
 .column_two{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -81,8 +108,18 @@ footer{
     font-weight: 400;
     line-height: 30px; ;
 } 
+.column_three {
+    display:grid;
+    /* grid-template-columns: 1fr ; */
+    gap: 30px;
+    padding: 30px;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; ;
+} 
 .grid-container1 .grid-item{
     gap: 29px;
 }
-
-    
