@@ -360,5 +360,19 @@ word-wrap: break-word
     line-height: 30px;
     word-wrap: break-word
 }
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+
+}
+.icons img{
+    width: 60%; height: 60%;
+     background: #F8F8F8; 
+     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+     border-radius: 300px
+}
 
 
