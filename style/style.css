@@ -300,3 +300,65 @@ word-wrap: break-word
  word-wrap: break-word;
  word-wrap: break-word
 }
+.page_width3{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.banner_section3{
+    padding: 50px 0px;
+    background: url("../assets/images/home/elipse.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #058B8C;
+   
+
+}
+.banner_inner_section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+.banner_section3.banner_img3{
+    padding: 20px;
+    /* border-radius: 50%; */
+    
+}
+ .banner_inner_section3 .banner_img3 image {
+    border-radius: 50%;
+   
+}
+.banner_inner_section3 .banner_content3 h2{
+    margin-top: 120px;
+    /* // Home  */
+    /* color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px; */
+    color:white;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 400;
+word-wrap: break-word;
+gap: 20px;
+}
+.banner_inner_section3 .banner_content3 h2 span{
+    color:white;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+word-wrap: break-word
+}
+.banner_inner_section3 .banner_content3 .description2{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+
