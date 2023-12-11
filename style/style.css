@@ -93,8 +93,12 @@ footer{
     display:grid;
     gap: 30px;
     padding: 30px;
+    color: #8F8F8F;
     font-family: Rubik;
+    font-size: 20px;
     font-style: normal;
+    font-weight: 400;
+    line-height: 30px; ;
 } 
 .column_two{
     display:grid;
@@ -111,8 +115,8 @@ footer{
 .column_three {
     display:grid;
     /* grid-template-columns: 1fr ; */
-    gap: 30px;
-    padding: 30px;
+    gap: 40px;
+    padding: 40px;
     color: #8F8F8F;
     font-family: Rubik;
     font-size: 20px;
@@ -122,4 +126,115 @@ footer{
 } 
 .grid-container1 .grid-item{
     gap: 29px;
+}
+/*Banner Section*/
+.page_width{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.banner_section{
+    padding: 50px 0px;
+    background:url("../assets/images/home/banner/bg_banner.svg") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.banner_inner_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+.banner_inner_section .banner_img{
+    padding: 20px; 
+}
+.banner_inner_section .banner_img img{
+    border-radius: 50%;
+}
+.banner_inner_section .banner_content{
+    margin-top: 130px;
+}
+.banner_inner_section .banner_content small{
+    background: #058B8C; 
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 0px;
+    word-wrap: break-word;
+    padding: 5px 10px;
+    height: 40px;
+}
+.banner_inner_section .banner_content .intro{
+    margin-top: 10px;
+   
+    color: #1E1E1E;
+    font-size: 60px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    /* word-wrap: break-word */
+
+}
+.banner_inner_section .banner_content h2{
+    margin-top: 10px;
+    /* // Home  */
+    /* color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px; */
+    color: #1E1E1E;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+word-wrap: break-word
+}
+.banner_inner_section .banner_content h2 span{
+    color: #058B8C;;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+word-wrap: break-word
+}
+.banner_inner_section .banner_content .description{
+   
+color: #1E1E1E;
+ font-size: 24px;
+ font-family: Rubik;
+ font-weight: 400;
+ line-height: 40px;
+ word-wrap: break-word
+}
+.banner_button .btn_1{
+    /* position: absolute;  */
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.20), 3px 4px 10px rgba(0,0,0,0.20) inset;
+    border-radius: 48px;
+    border: none;
+      
+    color: white;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    padding: 10px 20px;
+}
+.banner_button .btn_2{
+    border-radius: 48px; 
+    border: 2px #1E1E1E;
+    text-align: center;  
+    color: #1E1E1E solid; 
+    font-size: 18px; 
+    font-family: Rubik; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+    padding: 10px 20px;
 }
