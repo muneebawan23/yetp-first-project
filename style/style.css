@@ -374,5 +374,27 @@ word-wrap: break-word
      box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
      border-radius: 300px
 }
+.emergency_contact{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+    background: #058B8C;
+  
+    
+}
+.emergency_contact h2{
+     background: #058B8C;
+
+    color: white;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+text-align: center;
+
+}
+
 
 
